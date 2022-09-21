@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9484F541-401C-4360-9A6F-999BDFEE7359}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Assignment_2</RootNamespace>
+    <AssemblyName>Assignment-2</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject>Assignment_2.ex54</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ex1.cs" />
+    <Compile Include="ex10.cs" />
+    <Compile Include="ex11.cs" />
+    <Compile Include="ex12.cs" />
+    <Compile Include="ex13.cs" />
+    <Compile Include="ex14.cs" />
+    <Compile Include="ex15.cs" />
+    <Compile Include="ex16.cs" />
+    <Compile Include="ex17.cs" />
+    <Compile Include="ex18.cs" />
+    <Compile Include="ex19.cs" />
+    <Compile Include="ex2.cs" />
+    <Compile Include="ex20.cs" />
+    <Compile Include="ex21.cs" />
+    <Compile Include="ex22.cs" />
+    <Compile Include="ex23.cs" />
+    <Compile Include="ex24.cs" />
+    <Compile Include="ex25.cs" />
+    <Compile Include="ex26.cs" />
+    <Compile Include="ex27.cs" />
+    <Compile Include="ex28.cs" />
+    <Compile Include="ex29.cs" />
+    <Compile Include="ex3.cs" />
+    <Compile Include="ex30.cs" />
+    <Compile Include="ex31.cs" />
+    <Compile Include="ex32.cs" />
+    <Compile Include="ex33.cs" />
+    <Compile Include="ex34.cs" />
+    <Compile Include="ex35.cs" />
+    <Compile Include="ex36.cs" />
+    <Compile Include="ex37.cs" />
+    <Compile Include="ex38.cs" />
+    <Compile Include="ex39.cs" />
+    <Compile Include="ex4.cs" />
+    <Compile Include="ex40.cs" />
+    <Compile Include="ex41.cs" />
+    <Compile Include="ex42.cs" />
+    <Compile Include="ex43.cs" />
+    <Compile Include="ex44.cs" />
+    <Compile Include="ex45.cs" />
+    <Compile Include="ex46.cs" />
+    <Compile Include="ex47.cs" />
+    <Compile Include="ex48.cs" />
+    <Compile Include="ex49.cs" />
+    <Compile Include="ex5.cs" />
+    <Compile Include="ex50.cs" />
+    <Compile Include="ex51.cs" />
+    <Compile Include="ex52.cs" />
+    <Compile Include="ex53.cs" />
+    <Compile Include="ex54.cs" />
+    <Compile Include="ex55.cs" />
+    <Compile Include="ex6.cs" />
+    <Compile Include="ex7.cs" />
+    <Compile Include="ex8.cs" />
+    <Compile Include="ex9.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
